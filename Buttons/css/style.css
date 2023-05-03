@@ -154,3 +154,30 @@ button {
   background-position: 100%;
   color: #c266d3;
 }
+
+/* Button - 9 */
+
+.btn-9 {
+    transition: 1s all ease-in;
+    background-image: linear-gradient(#ac2e6f, brown);
+    cursor: pointer;
+    color: white;
+}
+.btn-9:hover {
+    transition: 1s all ease-out;
+    cursor: pointer;
+    color: white;
+    animation: pulse 0.9s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
