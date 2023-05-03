@@ -205,3 +205,14 @@ button {
     font-weight: bold;
     border-radius: 6px;
 }
+
+/* Button - 12 */
+
+.btn-12 {
+    background: #ff4600;
+    border-radius: 14px;
+    border: 6px solid #bf4a4a;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
