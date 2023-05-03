@@ -181,3 +181,17 @@ button {
       transform: scale(1);
     }
 }
+
+/* Button - 10 */
+
+.btn-10 {
+    background: linear-gradient(208deg, green, limegreen);
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+}
+.btn-10:hover {
+    transition: 1s all ease-out;
+    background: linear-gradient(208deg, limegreen, green);
+    cursor: pointer;
+    color: white;
+}
