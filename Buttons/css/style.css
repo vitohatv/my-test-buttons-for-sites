@@ -95,3 +95,18 @@ button {
     color: white;
     transition: 0.1s all
 }
+
+/* Button - 5 */
+
+.btn-5 {
+    background: transparent;
+    border: 4px solid;
+    border-image: repeating-linear-gradient(40deg, #ff4040, #ffffff 5%) 6;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+}
+.btn-5:hover {
+    background: #ededed;
+    transition: 0.5s all ease-out;
+    transform: translateY(2px);
+}
