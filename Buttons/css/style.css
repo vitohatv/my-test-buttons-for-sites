@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background: aliceblue;
+}
+button {
+    width: 130px;
+    height: 41px;
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+.row-btns {
+    background: goldenrod;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*-Buttons-*/
+
+
