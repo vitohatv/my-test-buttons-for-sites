@@ -195,3 +195,13 @@ button {
     cursor: pointer;
     color: white;
 }
+
+/* Button - 11 */
+
+.btn-11 {
+    cursor: pointer;
+    background: url(../img/background-for-button.jpg);
+    color: #320b0b;
+    font-weight: bold;
+    border-radius: 6px;
+}
