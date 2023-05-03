@@ -110,3 +110,15 @@ button {
     transition: 0.5s all ease-out;
     transform: translateY(2px);
 }
+
+/* Button - 6 */
+
+.btn-6 {
+    border: 2px solid #662935;
+    cursor: pointer;
+    box-shadow: 0 0 40px 40px #d8e8ef inset;
+    transition: all 0.4s ease-in-out;
+}
+.btn-6:hover {
+    box-shadow: 0 0 7px 0px #bf7da7 inset, 0 0 3px 4px #0089ff;
+}
