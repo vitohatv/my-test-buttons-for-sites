@@ -75,3 +75,23 @@ button {
     color: white;
     cursor: pointer;
 }
+
+/* Button - 4 */
+
+.btn-4 {
+    background: transparent;
+    border: 4px solid;
+    border-image: repeating-linear-gradient(315deg, brown, #ff738c 4%) 1;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+}
+.btn-4:hover {
+    border-image: repeating-linear-gradient(42deg, brown, #ff738c 4%) 1;
+    transition: 0.5s all ease-out;
+    transform: translateY(2px);
+}
+.btn-4:active {
+    background: #e3798c;
+    color: white;
+    transition: 0.1s all
+}
