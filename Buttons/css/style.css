@@ -122,3 +122,19 @@ button {
 .btn-6:hover {
     box-shadow: 0 0 7px 0px #bf7da7 inset, 0 0 3px 4px #0089ff;
 }
+
+/* Button - 7 */
+
+.btn-7 {
+    box-shadow: -9px 7px 2px #a93a3a;
+    transform: translate3d(0.6em, -0.6em, 0);
+    transition: all 0.3s cubic-bezier(0.145, 1.985, 0.32, 2.275);
+    transition-delay: 220ms;
+    background: linear-gradient(45deg, #eddb24, #ff0c0c);
+    border: none;
+}
+.btn-7:active {
+    box-shadow: 0px 0px 0px #af4b4b;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
