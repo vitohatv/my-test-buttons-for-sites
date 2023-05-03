@@ -67,3 +67,11 @@ button {
     transform: translateY(2px);
     color: rebeccapurple;
 }
+
+/* Button - 3 ONLY GRADIENT*/
+
+.btn-3 {
+    background: linear-gradient(45deg, #896565, brown);
+    color: white;
+    cursor: pointer;
+}
