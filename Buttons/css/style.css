@@ -26,4 +26,24 @@ button {
 
 /*-Buttons-*/
 
+/*Button - 1*/
 
+.btn-1 {
+    background: none;
+    color: black;
+    border: 4px solid #3592bd;
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+}
+.btn-1:hover {
+    background: #448f95;
+    box-shadow: 4px 2px 3px 0px #175b60;
+    color: white;
+    border: 4px solid #2c747e;
+    border-radius: 7px;
+}
+.btn-1:active {
+    background: #5a97bb;
+    transition: 0.1s all ease-in-out;
+    border: 4px solid #3a8375;
+}
