@@ -169,7 +169,6 @@ button {
     color: white;
     animation: pulse 0.9s infinite;
 }
-
 @keyframes pulse {
     0% {
       transform: scale(1);
@@ -215,4 +214,15 @@ button {
     cursor: pointer;
     color: white;
     font-weight: bolder;
+}
+
+/* Button - 13 */
+
+.btn-13 {
+    width: 151px;
+    border: 1px solid #c70d0d;
+    color: white;
+    background: linear-gradient(170deg, #7f93d7, dodgerblue);
+    cursor: pointer;
+    animation: pulse 1.4s infinite;
 }
